@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="CSS/master.css" rel="stylesheet"/>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <link href="css/master.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>CRUD</title>
+    </head>
+    <body class="bg-dark text-white">
+        <div class="container">
+            <!--controller-->
+            <div class="text-center header m-3">
+                <h2>
+                    CRUDS
+                </h2>
+                <p>
+                    Create Read Update Delete
+                </p>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <input type="text" placeholder="title" class="text-white rounded p-2 bg-black w-100 border-0 title" >
+                </div>
+            </div>
+            <div class="row mt-2 ">
+                <div class="col">
+                    <input type="number" placeholder="price" class="text-white rounded p-2 bg-black w-100 border-0 price" >
+                </div>
+                <div class="col">
+                    <input type="number" placeholder="taxes" class="text-white rounded p-2 bg-black w-100 border-0 taxes" >
+                </div>
+                <div class="col">
+                    <input type="number" placeholder="ads" class="text-white rounded p-2 bg-black w-100 border-0 ads" >
+                </div>
+                <div class="col">
+                    <input type="number" placeholder="discount" class="text-white rounded p-2 bg-black w-100 border-0 rounded discount" >
+                </div>
+                <div class="col">
+                    <p class="TotalMain bg-warning border-0 rounded w-100 p-2 rounded total ">Total :<span class="total"></span></p>
+                </div>
+            </div>
+
+            <div class="row mt-2">
+                <div class="col">
+                    <input type="number" placeholder="count" class="text-white  p-2 bg-black w-100 border-0 rounded count" >
+                </div>
+            </div>
+
+            <div class="row mt-2">
+                <div class="col">
+                    <input type="text" placeholder="category" class="text-white  p-2 bg-black w-100 border-0 rounded category" >
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col">
+                    <div class="btn btn-primary w-100"> Create</div>           
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col">
+                    <input type="text" placeholder="Search" class="text-white  p-2 bg-black w-100 border-0 rounded search" >           
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col">
+                    <div class="btn btn-primary w-100">Search By Title</div>
+                </div>
+                <div class="col">
+                    <div class="btn btn-primary w-100">Search By Category</div>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col">
+                    <div class="btn btn-primary w-100 deleteAll">Delete All (0)</div>
+                </div>
+            </div>
+
+            <!--table-->
+            <table class="table table-dark">
+                <thead>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Title</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Ads</th>
+                        <th scope="col">Discount</th>
+                        <th scope="col">Total</th>
+                        <th scope="col">Category</th>
+                        <th scope="col">Update</th>
+                        <th scope="col">Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+                </table>
+        </div>
+    </body>
+    <script src="JS/main.js"></script>
+</html>
