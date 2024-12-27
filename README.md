@@ -19,5 +19,5 @@ A simple web-based product management system that allows users to add, update, d
 - JavaScript
 
 
-## Live Demo : https://mohamed22shosha.github.io/CRUDS/
+## Live Demo : https://mo-shosha.github.io/CRUDS/
 
